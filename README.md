@@ -6,7 +6,7 @@ Analyzing the relationship between customer characteristics and transaction beha
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
-- [Dashboard](#Dashboard)
+- [Dashboard](#dashboard)
 
 ## Repository
 
@@ -88,3 +88,4 @@ To answer game retention questions such as:
 
 ### Dashboard
 
+![E-commerce Dashboard](ecommerce_dashboard.png)
