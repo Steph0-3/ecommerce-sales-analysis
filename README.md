@@ -7,6 +7,24 @@ Analyzing the relationship between customer characteristics and transaction beha
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
 
+### Repository
+ecommerce-eda
+│
+├── README.md
+│
+├── notebooks/
+│   ├── transactions_cleaned.ipynb
+│   ├── customer_cleaned.ipynb
+│   └── merged_data.ipynb
+│
+├── data/
+│   ├── transactions_cleamed.csv
+│   ├── customers_cleaned.csv
+│   └── merged_dataset.csv
+│
+└── dashboard/
+    └── ecommerce_dashboard.png
+
 ### Project Overview
 
 This project aims to uncover patterns and relationships between customer characteristics and transaction behavior. Using an e-commerce dataset, the analysis explores revenue, customer activity, and purchasing behavior across different customer segments and geographic locations. The goal is to identify meaningful patterns in customer behavior and provide data-driven insights into e-commerce performance.
@@ -21,11 +39,11 @@ Link to public dataset: https://www.kaggle.com/datasets/saidnizam/messy-e-commer
 
 ### Tools
 
-Python: Used for data cleaning, data transformation, exploratory data analysis, feature creation, and preparing the datasets for visualization.
+Python: Used for data cleaning, data transformation, exploratory data analysis and preparing the datasets for visualization.
 
 Pandas: Used within Python to clean, manipulate, combine, and analyze the customer and transaction datasets.
 
-Matplotlib: Used to create visualizations for exploratory data analysis, including distributions, relationships, and outlier analysis.
+Matplotlib: Used to create visualizations for exploratory data analysis, including distributions, relationships and outlier analysis.
 
 Tableau: Used to create visualizations and the final dashboard, including KPIs, revenue analysis, customer analysis, and transaction behavior.
 
@@ -51,16 +69,17 @@ To answer game retention questions such as:
 - Subscriptions increased generated more revenue than non-subscribers, suggesting a relationship between subscription status and customer spending
 - Female customers (both subscribed and non-subscribed) generated more revenue than subscribed and non-subscribed male customers
 - The revenue distribution contained significant outliers and highly-skewed data that requires further investigation
-- Revenue per customer varied across states, showing that states with more customers did not necessarily generate the highest revenue per customer.
 
 ### Recommendations
 - Investigate revenue outliers to determine whether it's legitimate high-value purchases or data quality issues
 - Look into subscription behavior since subscribers generated more revenue, further analyze subscription plans, purchase frequency and customer lifetime value
 - Analyze customer transaction frequency in the states to consider tailoring marketing and promotions
-- Encourage repeat customer behavior since customers average about 8 purchases and strategies such as loyalty programs can be considered
 
 ### Limitations
 
 - There was some missing customer data of approximately 5.6% of customers had missing age data and 5.3% were missing state data in the records
 - The merged dataset structure would contain customers with multiple transactions and had to use "COUNTD(Customer ID)" to properly analyze the distinct customers
 - The dataset mainly focuses on customer and transaction variables and does not account for other factors such as product preferences and customer lifetime value
+
+### Dashboard
+![E-commerce Dashboard](dashboard/ecommerce_dashboard.png)
