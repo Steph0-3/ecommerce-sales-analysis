@@ -7,8 +7,10 @@ Analyzing the relationship between customer characteristics and transaction beha
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
 
-### Repository
-ecommerce-eda
+## Repository
+
+```text
+ecommerce-eda/
 │
 ├── README.md
 │
@@ -18,12 +20,14 @@ ecommerce-eda
 │   └── merged_data.ipynb
 │
 ├── data/
-│   ├── transactions_cleamed.csv
+│   ├── transactions_cleaned.csv
 │   ├── customers_cleaned.csv
 │   └── merged_dataset.csv
 │
 └── dashboard/
     └── ecommerce_dashboard.png
+```
+
 
 ### Project Overview
 
