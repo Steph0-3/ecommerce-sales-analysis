@@ -6,6 +6,7 @@ Analyzing the relationship between customer characteristics and transaction beha
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
 - [Recommendations](#recommendations)
+- [Dashboard](#Dashboard)
 
 ## Repository
 
@@ -86,4 +87,4 @@ To answer game retention questions such as:
 - The dataset mainly focuses on customer and transaction variables and does not account for other factors such as product preferences and customer lifetime value
 
 ### Dashboard
-![E-commerce Dashboard](dashboard/ecommerce_dashboard.png)
+
