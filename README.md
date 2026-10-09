@@ -1,5 +1,5 @@
 # ecommerce-sales-analysis
-Analyzing the relationship between customer characteristics and transaction behavior to uncover purchasing and revenue patterns
+Analyzing customer spending patterns across 8,199 e-commerce transactions and 1,000 customers to investigate how subscription status, demographics, and geographic location relate to revenue and purchasing behavior.
 
 ### Table of Contents
 
